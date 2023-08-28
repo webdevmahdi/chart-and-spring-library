@@ -13,7 +13,6 @@ function App() {
       reset: true,
       reverse: flip,
       delay: 200,
-      onRest: () =>set(!flip)
     }),
     [])
   return (
